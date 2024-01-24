@@ -12,7 +12,7 @@ h1 {
     left: 0;
     bottom: 0;
     padding: 12px;
-    width: 300px;    
+    width: 300px;  
 }
 
 .sidebar__navigation {
@@ -49,11 +49,130 @@ h1 {
     font-family: "DM Sans", sans-serif;
 }
 
-.sidebar__library span{
+.sidebar__library {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     color: #B3B3B3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.sidebar__library .sidebar__library-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar__library .sidebar__library-button {
+    display: flex;
+    margin-right: 10px;
+    color: #B3B3B3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+}
+
+.sidebar__library .sidebar__library-button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
 }
 
 .sidebar__library-title {
     font-family: "DM Sans", sans-serif;
     font-size: 20px;
+}
+
+.sidebar__library .sidebar__library-content .fa-plus {
+    margin: 24px 10px;
+}
+
+.section-playlist {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #B3B3B3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.section-playlist .section-playlist__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text {
+    padding-bottom: 14px;
+    color: #FFFFFF;
+    font-family: "DM Sans", sans-serif;
+}
+
+.section-playlist__content .title {
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-playlist__content .section-playlist__button {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 113px;
+}
+
+.sidebar__library .cookie { 
+    margin: 25px 20px;
+}
+
+.sidebar__library .cookie a {
+    color: #B3B3B3;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.sidebar__library .cookie a:hover {
+    text-decoration: underline;
+}
+
+.languages .languages__button {
+    align-items: center;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #878787;
+    font-weight: bold;
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
 }
