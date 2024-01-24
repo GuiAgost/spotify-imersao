@@ -150,6 +150,7 @@ h1 {
 
 .sidebar__library .cookie { 
     margin: 25px 20px;
+    font-family: "DM Sans", sans-serif;
 }
 
 .sidebar__library .cookie a {
@@ -175,4 +176,47 @@ h1 {
     margin: 8px;
     padding: 8px;
     border-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    gap: 20%;
+    padding: 15px;
+    margin: 12px;
+    background: linear-gradient(90deg, #af2896, #509bf5);
+    justify-content: space-between;
+}
+
+.footer .text {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFFFFF;
+    font-family: "DM Sans", sans-serif;    
+    gap: 15px;
+}
+
+.footer .text .text__title {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer .text .text__detail {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer .button {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
 }
