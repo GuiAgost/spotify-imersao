@@ -178,7 +178,7 @@ h1 {
     display: flex;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     background: linear-gradient(90deg, #af2896, #509bf5);
 }
 
