@@ -1,9 +1,9 @@
 # 🤿 Mergulhando em Java
 
-Este projeto foi realizado através das aulas da [imersão alura Front-end](https://cursos.alura.com.br/imersao?utm_campaign=%5BImers%C3%A3o%20Front-End%5D%20E-mails%20de%20confirma%C3%A7%C3%A3o%20de%20inscri%C3%A7%C3%A3o&utm_medium=email&_hsmi=287286164&_hsenc=p2ANqtz--SgzwkEaKXME-eY6xWFhkm6VhK86s6eqKIP8ixpbjgcb23Id8QSG_BDRq-uZtpLS-YqCRdG77AB8hS6r3HKtz2mWkkQw&utm_content=287286164&utm_source=hs_automation).
+Este projeto foi realizado através das aulas da [imersão Front-end Alura](https://cursos.alura.com.br/imersao?utm_campaign=%5BImers%C3%A3o%20Front-End%5D%20E-mails%20de%20confirma%C3%A7%C3%A3o%20de%20inscri%C3%A7%C3%A3o&utm_medium=email&_hsmi=287286164&_hsenc=p2ANqtz--SgzwkEaKXME-eY6xWFhkm6VhK86s6eqKIP8ixpbjgcb23Id8QSG_BDRq-uZtpLS-YqCRdG77AB8hS6r3HKtz2mWkkQw&utm_content=287286164&utm_source=hs_automation).
 Nesta imersão, foi desenvolvido o projeto da recriação da página inicial do Spotify por meio do HTML e do CSS, os recursos, as diferenças entre os códigos e o framerwork React.
 
-# ⏰ Cronograma da Imersão Alura
+# ⏰ Cronograma da Imersão Front-end Alura
 
 * Aula 1 - Revisão: HTML, CSS e JS na Prática
 
