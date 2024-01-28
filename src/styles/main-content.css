@@ -7,20 +7,23 @@
 }
 
 .header__navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;    
     padding: 16px;
     margin: 10px;
     border-radius: 8px;
     background-color: #121212;    
     padding: 12px;
+  }
+  
+  .header__navigation .navigation {
+    justify-content: space-between;
+    display: flex;
+    width: 100vw;
 }
 
-.header__navigation .navigation {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.header__navigation .navigation .navigation__left{
+  display: flex;
+  align-items: center;
 }
 
 .header__navigation .navigation .arrow-left {
@@ -115,7 +118,8 @@
     font-size: 24px;
     font-weight: 700;
   }
-
+  
+ /* SCROLL */
   .offer__scroll-container {
     max-height: 43vh;
     margin: 24px;
@@ -125,8 +129,7 @@
   .offer__scroll-container::-webkit-scrollbar {
     width: 1px;
   }
-
-  /* SCROLL */
+ 
   .offer__scroll-container::-webkit-scrollbar-thumb {
     background-color: aqua;
   }
